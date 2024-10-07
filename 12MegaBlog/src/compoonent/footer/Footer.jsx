@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Logo from '../Logo'
 
 function Footer() {
@@ -26,36 +26,40 @@ function Footer() {
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <Link
+                                    <a
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Features
-                                    </Link>
+                                    </a>
+                                    
                                 </li>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Pricing
-                                    </Link>
+                                    </Link> */}
+                                    Pricing
                                 </li>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Affiliate Program
-                                    </Link>
+                                    </Link> */}
+                                    Affiliate Program
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Press Kit
-                                    </Link>
+                                    </Link> */}
+                                     Press Kit
                                 </li>
                             </ul>
                         </div>
@@ -67,36 +71,39 @@ function Footer() {
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Account
-                                    </Link>
+                                    </Link> */}
+                                    Account
                                 </li>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Help
-                                    </Link>
+                                    </Link> */}
                                 </li>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Contact Us
-                                    </Link>
+                                    </Link> */}
+                                    Contact Us
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Customer Support
-                                    </Link>
+                                    </Link> */}
+                                    Customer Support
                                 </li>
                             </ul>
                         </div>
@@ -108,28 +115,31 @@ function Footer() {
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Terms &amp; Conditions
-                                    </Link>
+                                    </Link> */}
+                                    Terms &amp; Conditions
                                 </li>
                                 <li className="mb-4">
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Privacy Policy
-                                    </Link>
+                                    </Link> */}
+                                     Privacy Policy
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         to="/"
                                     >
                                         Licensing
-                                    </Link>
+                                    </Link> */}
+                                    Licensing
                                 </li>
                             </ul>
                         </div>

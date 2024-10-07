@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Card userName={"manjeet"} />
+      <Card userName={"manjeet"} btnText={"hello"} />
     </>
   )
 }
