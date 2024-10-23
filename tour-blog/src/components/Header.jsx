@@ -6,7 +6,9 @@ const Header = () => {
     <div>
       <div className="bg-red-400 h-14 w-full p-4 flex justify-evenly">
               <div className="">
-                     <img src="" alt="Man" />
+                     <Link to={"/"}>
+                            <img src="" alt="Man" />
+                     </Link>
               </div>
               <div className="">
                      <Link to={"/"}>
@@ -20,7 +22,7 @@ const Header = () => {
                      
               </div>
               <div className="">
-                     <Link to={"/"}>
+                     <Link to={"/about"}>
                             About
                      </Link>
                     
